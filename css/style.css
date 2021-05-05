@@ -1,0 +1,260 @@
+.nav-wrapper {
+  background-color: #16c79a;
+  padding: 5px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-footer{
+  background-color: #6f9eaf;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  bottom-width:50px;
+  right: 10px;
+  width: 100%;
+
+}
+
+.nav-list {
+  list-style: none;
+  padding: 1px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.nav-list li {
+  display: inline;
+  margin: 1px;
+}
+
+body {
+  background-color: #f8f1f1;
+}
+
+.nav-list li a:hover {
+  background-color: #ec4646;
+}
+
+.nav-list li a:active {
+  background-color: #93329e;
+}
+
+.nav-list li a:visited {
+  background-color: darkviolet;
+}
+
+.form-container {
+  background-color: #6e7c7c;
+  width: 330px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: fixed;
+  bottom: -280px;
+  right: 10px;
+  transition: .5s;
+}
+
+.form-container:hover {
+  bottom: 0;
+}
+
+#email-icon {
+  width: 50px;
+  float: left;
+}
+
+.form-head-container {
+  background-color: #000000;
+  padding: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.form-item {
+  margin-left: 15px;
+  color: white;
+  padding-left: 8px;
+}
+
+#subject {
+  height: 100px;
+  width: 200px;
+}
+
+#contact-us-label {
+  color: white;
+}
+
+#submit-btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  margin: 9px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit-btn:hover {
+  background-color: darkorange;
+}
+
+#caption-1 {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  color: #1687a7;
+  font-size: 3.75vw;
+  animation-name: caption-fade;
+  animation-duration: 2.5s;
+}
+
+@keyframes caption-fade {
+  0% {
+    opacity: 0;
+    top: 0
+  }
+
+  100% {
+    opacity: 1;
+    top: 40%;
+  }
+}
+
+.featured-wrapper {
+  position: relative;
+  display: flex;
+  overflow: auto;
+  justify-content: space-around;
+}
+
+#pop-cat {
+  text-align: center;
+  font-style: italic;
+}
+
+.product-container {
+  background-color: #4CAF50;
+  text-align: center;
+  max-width: 20%;
+  position: relative;
+  border-radius: 20PX;
+  border-style: solid;
+  border-width: 2PX;
+  margin-top: 8PX;
+  animation-name: product-containeranim;
+  animation-duration: 2.75s;
+  border-color: #4CAF50;
+}
+
+@keyframes product-containeranim {
+  0% {
+    opacity: 0;
+    margin-top: 500px
+  }
+
+  100% {
+    opacity: 1;
+    margin-top: 8px;
+  }
+}
+
+.product-container img {
+  max-width: 100%;
+  position: relative;
+  top: 36px;
+}
+
+.cat-text {
+  font-size: 1vw;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: -2%;
+}
+
+.btn-container {
+  background-color: white;
+  position: relative;
+  top: 1;
+  padding: 7%;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.view-more-btn {
+  background-color: #4CAF50;
+  max-width: 100%;
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 9px 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.view-more-btn:hover {
+  background-color: darkorange;
+}
+
+#social-media-container {
+  background-color: black;
+  display: inline-block;
+  position: fixed;
+  right: 0;
+  bottom: 50%;
+}
+
+#social-media-container:hover{
+  cursor: pointer;
+}
+#facebook-icon-container {
+  background-color: #395598
+  transition: .5s;
+}
+
+#facebook-icon-container:hover {
+  padding-left: 20%;
+}
+
+#twitter-icon-container {
+  background-color: #395598
+  transition: .5s;
+}
+
+#twitter-icon-container:hover {
+  padding-left: 20%;
+}
+
+#insta-icon-container {
+  background-color: #395598
+  transition: .5s;
+}
+
+#insta-icon-container:hover {
+  padding-left: 20%;
+}
+
+#linkdin-icon-container {
+  background-color: #395598
+  transition: .5s;
+}
+
+#linkdin-icon-container:hover {
+  padding-left: 20%;
+}
+
+.row-feedback{
+  text-align: center;
+}
